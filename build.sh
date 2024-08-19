@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Build Docker image
-docker build -t yourdockerhubusername/devops-build:latest .
+docker build -t naveennavi/devops-build:latest .
