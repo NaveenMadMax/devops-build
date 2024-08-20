@@ -1,0 +1,11 @@
+Step I followed:
+First, I cloned the GitHub repository locally.
+Then, I created a Dockerfile using Nginx as the base image.
+Next, I created a docker-compose.yml file.
+I set up Docker Hub repositories for dev (public) and prod (private).
+After that, I created build.sh and deploy.sh scripts.
+I pushed the changes to the dev branch on GitHub, including .gitignore and .dockerignore files.
+I launched a separate server for Jenkins, completed the setup, and configured the pipeline.
+I triggered the first build by committing changes to the dev branch on GitHub. After the build, I checked the Docker public repo (dev), and the build was successful.
+I triggered the second build by merging the dev branch into the main branch. After the build, I verified the Docker private repo (prod), and the build was successful.
+Finally, I created an Ubuntu instance with the necessary security groups and attached a screenshot of the security group. I installed Docker and Docker Compose, then built and deployed the application using the build.sh and deploy.sh scripts.
