@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Build Docker image
-docker build -t react .
+docker build -t naveennavi/dev:latest .
