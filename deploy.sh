@@ -1,4 +1,5 @@
 #!/bin/bash
 
-# Run Docker container
-docker run -d -p 80:80 naveennavi/dev:latest
+# Deploy the Docker container
+docker-compose up -d
+
