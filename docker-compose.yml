@@ -1,6 +1,9 @@
 version: '3'
 services:
-  app:
-    build: .
+  web:
+    image: dev
+    build:
+      context: .
     ports:
       - "80:80"
+
